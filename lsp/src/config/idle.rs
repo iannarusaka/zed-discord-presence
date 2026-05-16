@@ -47,10 +47,10 @@ impl Default for Idle {
             activity: Activity {
                 state: Some("Idling".to_string()),
                 details: Some("In Zed".to_string()),
-                large_image: Some("{base_icons_url}/zed.png".to_string()),
-                large_text: Some("Zed".to_string()),
-                small_image: Some("{base_icons_url}/idle.png".to_string()),
-                small_text: Some("Idle".to_string()),
+                large_image: Some("{base_icons_url}/idle-zed.png".to_string()),
+                large_text: Some("Idle".to_string()),
+                small_image: None,
+                small_text: None,
             },
         }
     }

@@ -33,9 +33,8 @@ use serde_json::{Map, Value};
 
 use crate::{config::activity::Activity, error::Result};
 
-const DEFAULT_APP_ID: &str = "1263505205522337886";
-const DEFAULT_ICONS_URL: &str =
-    "https://raw.githubusercontent.com/xhyrom/zed-discord-presence/main/assets/icons/";
+const DEFAULT_APP_ID: &str = "1502773966350319889";
+const DEFAULT_ICONS_URL: &str = "https://cdn.iannarusaka.dev/assets/images/lang-icons";
 
 #[derive(Debug, Clone)]
 pub struct Configuration {
