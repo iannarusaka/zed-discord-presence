@@ -16,10 +16,10 @@ pub struct Activity {
 impl Default for Activity {
     fn default() -> Self {
         Self {
-            state: Some(String::from("Working on {filename}")),
-            details: Some(String::from("In {workspace}")),
+            state: Some(String::from("fucking up {filename}")),
+            details: None,
             large_image: Some(String::from("{base_icons_url}/{language:lo}.png")),
-            large_text: Some(String::from("{language:u}")),
+            large_text: Some(String::from("{language:lo}")),
             small_image: None,
             small_text: None,
         }

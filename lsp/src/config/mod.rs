@@ -182,6 +182,6 @@ mod tests {
 
         let py_cfg = config.languages.get("python").unwrap();
         assert_eq!(py_cfg.state.as_deref(), Some("Scripting Python"));
-        assert_eq!(py_cfg.details.as_deref(), Some("In {workspace}"));
+        assert_eq!(py_cfg.details.as_deref(), None);
     }
 }
